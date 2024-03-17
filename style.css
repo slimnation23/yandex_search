@@ -190,3 +190,29 @@
   border-top: 2px solid #000;
   border-radius: 2px;
 }
+
+.AliceFabContainer {
+  position: fixed;
+  z-index: 9999;
+  right: 1.2em;
+  bottom: 1.6em;
+  font-size: 20px;
+  text-align: right;
+}
+
+.AliceFabButton {
+  display: inline-block;
+  width: 2.2em;
+  height: 2.2em;
+  font-size: inherit;
+  cursor: pointer;
+  border: 0;
+  border-radius: 50%;
+  background-color: inherit;
+  background-image: url(./images/fab-icon-new.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2.2em;
+  transition: transform ease-out 0.15s;
+  will-change: transform;
+}
