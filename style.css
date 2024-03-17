@@ -216,3 +216,7 @@
   transition: transform ease-out 0.15s;
   will-change: transform;
 }
+
+.AliceFabButton:hover {
+    transform: scale(1.15);
+}
