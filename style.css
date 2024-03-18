@@ -1,4 +1,7 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -218,5 +221,114 @@
 }
 
 .AliceFabButton:hover {
-    transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.main {
+  position: relative;
+  box-sizing: border-box;
+  min-width: 600px;
+  min-height: 100%;
+  margin-top: -83px;
+  padding-top: 183px;
+  padding-bottom: 6px;
+}
+
+.main__center {
+  margin-left: 84px;
+  padding-top: 15px;
+  padding-left: 16px;
+}
+
+.main__container {
+  position: relative;
+  margin-left: -100px;
+  padding-left: 100px;
+}
+
+.content {
+  white-space: nowrap;
+}
+
+.content__left {
+  width: 568px;
+}
+
+.content__left,
+.content__right {
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+}
+
+.serp-list_left_yes {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+}
+
+.main__content .serp-item_card:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.serp-item_card {
+  padding: 12px 16px;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px 0#0d234308;
+  /* box-shadow: 0 4px 12px 0#0d234308; */
+}
+
+.organic .OrganicTitle,
+.Organic .OrganicTitle {
+  position: relative;
+  font-weight: 400;
+}
+
+.OrganicTitle-Link {
+  position: relative;
+  display: inline-block;
+  min-width: 0;
+  max-width: 100%;
+  margin: -10px -2px -2px -10px;
+  padding: 10px 2px 2px 10px;
+  vertical-align: top;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.content__left .Favicon {
+}
+
+.favicon__icon {
+  position: absolute;
+  top: 3px;
+  left: -44px;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+  background-image: url("./images/завантаження.png");
+}
+
+.organic
+  .OrganicTitle.OrganicTitle_multiline
+  .OrganicTitle-Link
+  .OrganicTitle-LinkText,
+.Organic
+  .OrganicTitle.OrganicTitle_multiline
+  .OrganicTitle-Link
+  .OrganicTitle-LinkText {
+  display: inline;
+}
+
+.organic .OrganicTitle-LinkText,
+.Organic .OrganicTitle-LinkText {
+  overflow: hidden;
+  margin: 0 10px 0 0;
+  font-weight: inherit;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  color: navy;
+  font: 18px/24px "YS Text", Arial, Helvetica, "Arial Unicode MS", sans-serif;
 }
