@@ -83,6 +83,10 @@
   transition: color 0.2s ease-in-out;
 }
 
+.btn-menu {
+  display: none;
+}
+
 .header-actions {
   display: flex;
   flex: 1 1;
@@ -653,6 +657,7 @@
 
   .relatedBottom-column {
     margin-right: 0;
+    min-width: 100%;
   }
 
   .relatedBottom-item {
