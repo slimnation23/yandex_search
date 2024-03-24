@@ -83,6 +83,10 @@
   transition: color 0.2s ease-in-out;
 }
 
+.header-form-input::placeholder {
+  color: #000;
+}
+
 .btn-menu {
   display: none;
 }
