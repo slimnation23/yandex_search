@@ -617,6 +617,7 @@
   }
 
   .btn-menu {
+    display: block;
     opacity: 0.5;
   }
 
